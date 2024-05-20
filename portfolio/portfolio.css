@@ -1,0 +1,117 @@
+body {
+    background-color: #F2F2F2; /* Mailchimp background color */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navigation {
+    margin-top: 20px;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: #333; /* Dark text color */
+    font-size: 18px;
+}
+#navigation ul li a:hover{
+    color: #FFA300; /* Darker hover color */
+}
+
+#image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#image img {
+    width: 230px; /* Adjust as needed */
+    height: auto;
+    margin-right: 100px;
+    border-radius: 30%; /* to make the image round */
+    border: none;
+}
+
+#box {
+    text-align: left;
+    font-size: 37px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333; /* Dark text color */
+   
+}
+
+#box p {
+    margin: 5px 0;
+}
+
+#span {
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFA300; /* Mailchimp orange */
+}
+
+#small {
+    font-size: 17px;
+    font-style: italic;
+    color: #666; /* Darker gray */
+}
+#about {
+    background-color: #FFA300;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 120px;
+    border-radius: 55px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #232323; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    text-align: center;
+    margin-top: 300px; /* Adjust as needed */
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 9px;
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+
+/* Copyright */
+.copyright {
+    font-size: 14px;
+}
+

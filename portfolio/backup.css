@@ -1,0 +1,116 @@
+
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#navigation {
+    margin-top: 20px;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 18px;
+}
+#navigation ul li a:hover{
+    color: white;
+}
+
+#image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#image img {
+    width: 230px; /* Adjust as needed */
+    height: auto;
+    margin-right: 100px;
+    border-radius: 30%; /* to make the image round */
+    border: none;
+}
+
+#box {
+    text-align: left;
+    font-size: 37px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+#box p {
+    margin: 5px 0;
+}
+
+#span {
+    font-weight: bold;
+    font-size: 30px;
+    color: yellow;
+}
+
+#small {
+    font-size: 17px;
+    font-style: italic;
+    color: rgb(97, 97, 30);
+}
+
+
+/* portfolio.css */
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media img {
+    width: 40px;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+}
+
+/* Copyright */
+.copyright {
+    font-size: 14px;
+}
